@@ -1,0 +1,7 @@
+.frontPage {
+    width:fit-content;
+    height: 100%;
+    min-height: 100vh;
+    background: rgba(133, 41, 41, 0.6);
+
+}
