@@ -21,6 +21,7 @@ app.get('/api/dummy/:id', (req, res) => {
 	res.send(note);
 });
 
+// .env assigned PORT or PORT 5000
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, console.log(`Server started on PORT ${PORT}`));
