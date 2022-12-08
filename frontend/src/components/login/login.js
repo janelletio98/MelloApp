@@ -13,7 +13,7 @@ import {
 
 function Login() {
 	return (
-		<MDBContainer className="my-5">
+		<MDBContainer className="login-card">
 			<MDBCard>
 				<MDBRow className="g-0">
 					<MDBCol className="bg-yellow" md="6">
@@ -32,7 +32,7 @@ function Login() {
 									icon="cubes fa-3x me-3"
 									style={{ color: '#ff6219' }}
 								/>
-								<span className="h1 fw-bold mb-0">MelloAmp</span>
+								<span className="h1 fw-bold mb-0">MELLOAMP</span>
 							</div>
 
 							<h5
@@ -56,7 +56,7 @@ function Login() {
 								size="lg"
 							/>
 
-							<MDBBtn className="mb-4 px-5" color="dark" size="lg">
+							<MDBBtn className="mb-4" style={{ backgroundColor: '#303030' }}>
 								Login
 							</MDBBtn>
 							<a className="small text-muted" href="#!">
@@ -65,7 +65,7 @@ function Login() {
 
 							<p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>
 								Don't have an account?{' '}
-								<a href="#!" style={{ color: '#393f81' }}>
+								<a href="signup" style={{ color: '#393f81' }}>
 									Register here
 								</a>
 							</p>
